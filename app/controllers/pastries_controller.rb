@@ -9,7 +9,7 @@ class PastriesController < ApplicationController
     end
 
     def create
-        @pastry = Pastry.new(params.require(:pastry).permit(:name, :category, :description))
+        @pastry = Pastry.new(params.require(:pastry).permit(:name, :category, :description, :photo_url))
         if @pastry.save
             redirect_to pastries_path
         else

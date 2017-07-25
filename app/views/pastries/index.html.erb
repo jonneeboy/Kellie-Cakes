@@ -1,61 +1,13 @@
 <h1>Kellie Cakes</h1>
 
 
-    <%= link_to "New", new_pastry_path %>
-   <% @pastries.each do |pastry| %>
-        <%= link_to "Edit", edit_pastry_path(pastry) %>   
-        <%= link_to "Show", pastry_path(pastry) %>
-        <%= link_to "Delete this pastry?...Yeah Sure!", pastry_path(pastry), method: :delete, data: { confirm: "Are you sure you want to delete this pastry?"} %>
-       
-       
-        <%= image_tag "IMG_0046.JPG", width: "300" %>
-        <%= image_tag "img_0045.jpg", width: "300" %>
-        <%= image_tag "IMG_0077.JPG", width: "300" %>
-        <%= image_tag "IMG_0174.JPG", width: "300" %>
-        <%= image_tag "IMG_0206.JPG", width: "300" %>
-        <%= image_tag "IMG_0255.JPG", width: "300" %>
-        <%= image_tag "IMG_0310.JPG", width: "300" %>
-        <%= image_tag "IMG_0348.JPG", width: "300" %>
-        <%= image_tag "IMG_0349.JPG", width: "300" %>
-        <%= image_tag "IMG_0434.JPG", width: "300" %>
-        <%= image_tag "IMG_0648.JPG", width: "300" %>
-        <%= image_tag "IMG_0676.JPG", width: "300" %>
-        <%= image_tag "IMG_0938.JPG", width: "300" %>
-        <%= image_tag "kellie_wedding.jpg", width: "300" %>
-        <%= image_tag "unnamed-2.jpg", width: "300" %>
-        <%= image_tag "unnamed-3.jpg", width: "300" %>
-        <%= image_tag "unnamed-4.jpg", width: "300" %>
-        <%= image_tag "unnamed-5.jpg", width: "300" %>
-
-        
-        
-        
-        
-        
-        
-        
-        
-   <% end %>
-
-
-
-
-
-
-
-
-<!--
-<table>
-    <tr>
-        <td>KELLIE'S GALLERIES:</td>
-        <td>|Weddings|</td>
-        <td>|Birthdays|</td>
-        <td>|Specialities|</td>
-        <td>|Cupcakes|</td>
-      
-    </tr>
-</table>
--->
+<%= link_to "New", new_pastry_path %>
+<% @pastries.each do |pastry| %>
+    <%= link_to "Edit", edit_pastry_path(pastry) %>   
+    <%= link_to "Show", pastry_path(pastry) %>
+    <%= link_to "Delete this pastry?...Yeah Sure!", pastry_path(pastry), method: :delete, data: { confirm: "Are you sure you want to delete this pastry?"} %>
+    <%= image_tag pastry photo_url, width: "300" %>
+<% end %>
 
 
 

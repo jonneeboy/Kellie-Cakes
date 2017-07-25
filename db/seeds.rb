@@ -7,8 +7,12 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
+Pastry.destory_all
 
-#Pastry.create(name: 'Minion Cake', description: 'Specialty cake based on the movie Minion', category: 'SPECIALTY', photo_url: 'img_0045.jpg')
-#Pastry.create(name:'Cat and Mouse Cake', description: 'Specialty cake cat and mouse', category: 'SPECIALTY', photo_url: 'IMG_0046.JPG')
-#Pastry.create(name: 'Mini Cake', description: 'Miniture bit-size cakes', category: 'CUPCAKES', photo_url: 'IMG_0349.JPG')
-#Pastry.create(name: 'Sugar Rose', description: 'Speciality Rose made with sugar', category: 'SPECIALITY', photo_url: 'IMG_00174.JPG')
+Pastry.create([
+    {name: 'Minion Cake', description: 'Specialty cake based on the movie Minion', category: 'SPECIALTY', photo_url: 'http://i.imgur.com/GD89p8c.jpg'},
+    {name:'Cat and Mouse Cake', description: 'Specialty cake cat and mouse', category: 'SPECIALTY', photo_url: 'http://i.imgur.com/Flz80sD.jpg'},
+    {name:'miniture bit-size cakes', description: 'miniture bit-size cakes', category: 'SPECIALTY', photo_url: 'http://i.imgur.com/Flz80sD.jpg'},
+    {name: 'Sugar Rose', description: 'Speciality Rose made with sugar', category: 'SPECIALITY', photo_url: 'http://i.imgur.com/NyGumWi.jpg'},
+    {name: 'Walking Dead', description: 'Zombie Cake', category: 'SPECIALTY', photo_url: 'http://i.imgur.com/g9vTv3G.jpg'},
+])
