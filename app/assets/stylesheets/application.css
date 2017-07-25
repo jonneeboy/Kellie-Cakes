@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+h1 {
+    text-align: center;
+    font-size: 500%;
+   
+}
+
+
+body {
+    font-family: 'Cookie', serif;
+    font-size: 20px;
+    padding-top: 80px;
+    background-color: lavenderblush;
+    background: url("stripe.png");
+}
+
+.navbar.navbar-default.navbar-fixed-top {
+    height: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#new_pastry {
+    border: 4px solid #E49994;
+    padding: 15px;
+    border-radius: 10px;
+}
