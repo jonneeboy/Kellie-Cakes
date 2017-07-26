@@ -4,6 +4,12 @@ class PastriesController < ApplicationController
         @pastries = Pastry.all
     end
 
+    def filteredindex
+        @category = params[:category]
+        puts @category
+        @pastries = Pastry.find_by(category: filter_params)
+    end
+
     def new
         @pastry = Pastry.new
     end
@@ -43,5 +49,8 @@ class PastriesController < ApplicationController
         redirect_to :root
     end 
 
-
+private
+    def filter_params
+        params.require(:category)
+    end
 end

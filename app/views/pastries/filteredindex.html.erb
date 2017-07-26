@@ -1,23 +1,15 @@
-<h1>Kellie Cakes</h1>
-
+<h1><%= @category %></h1>
 <% if ((current_user) && (current_user.user_type == 'Admin')) %>
     <%= link_to "New", new_pastry_path %>
      <% @pastries.each do |pastry| %>
             <%= link_to "Edit", edit_pastry_path(pastry) %>   
             <%= link_to "Show", pastry_path(pastry) %>
             <%= link_to "Delete this pastry?...Yeah Sure!", pastry_path(pastry), method: :delete, data: { confirm: "Are you sure you want to delete this pastry?"} %>
-        <img src="#{pastry.photo_url}" onerror="this.src='http://i.imgur.com/2hazVqp.jpg'"/>
     <% end %>
 <% else %>
     <% @pastries.each do |pastry| %>
-
-        <img src="#{pastry.photo_url}" onerror="this.src='http://i.imgur.com/2hazVqp.jpg'"
+        <img src="#{pastry.photo_url}" onerror="this.src='http://i.imgur.com/2hazVqp.jpg'"/>
     <% end %>
-
-<% end %>
-
-
-
-
+          
 
 

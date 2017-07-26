@@ -15,7 +15,7 @@
  */
 h1 {
     text-align: center;
-    font-size: 500%;
+    font-size: 600%;
    
 }
 
@@ -26,6 +26,7 @@ body {
     padding-top: 80px;
     background-color: lavenderblush;
     background: url("stripe.png");
+
 }
 
 .navbar.navbar-default.navbar-fixed-top {
@@ -43,8 +44,18 @@ ul {
 }
 
 .welcomeImage {
-    background-size: cover;
+    text-align: left;
+
 
 }
 
+.center {
+    text-align: center;
+    font-stretch: expanded;
+}
+
+.contact {
+    text-align: right;
+
+}
 

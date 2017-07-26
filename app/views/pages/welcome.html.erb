@@ -3,27 +3,40 @@
     <div id="welcomeHeader">
         <h1>Kellie Cakes</h1>
     </div>
+        <!--<div class="contact">
+            <h2>Contact Us @: Kellie Haggett</h2>
+                email: kelliehaggett@me.com-->
+        
+        </div>
    
     <div class="welcomeImage">
-        <%= image_tag "IMG_0077.JPG" %>
+        <%= image_tag "IMG_0077.JPG", width: "250" %>
     </div>
     <div id="welcomeBio">
     <p>
-            <div>
+            <div class='center'>
                 Kellie's Gallery: 
                 &nbsp;&nbsp; 
+                <%= link_to "Wedding Cakes", controller: "pastries", category: "WEDDING" %>
+                    &nbsp | &nbsp;
+                <%= link_to "Birthday Cakes", controller: "pastries", category: "BIRTHDAY" %>
+                    &nbsp | &nbsp;
+                <%= link_to "Specialty Cakes", controller: "pastries", category: "SPECIALTY" %>
+                    &nbsp | &nbsp;
+                <%= link_to "CupCakes", controller: "pastries", category: "CUPCAKES" %>
+                <!--
                 <%= link_to "Wedding Cakes", root_path %>
                 &nbsp;&nbsp; |&nbsp;&nbsp;
                 <%= link_to "Birthday Cakes", root_path %>
                 &nbsp;&nbsp; |&nbsp;&nbsp;
                 <%= link_to "Speciality Cakes", root_path %>
                 &nbsp;&nbsp; |&nbsp;&nbsp;
-                <%= link_to "CupCakes", root_path %>
+                <%= link_to "CupCakes", root_path %> -->
             </div>
             
     </p>
 
-    <p>Praesent non nisi ac erat tincidunt pretium nec vitae dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas bibendum vitae mi ac bibendum. Quisque congue maximus ante quis ultricies. Donec tempor quam sit amet pulvinar efficitur. Sed tempor purus id neque blandit, fermentum dictum elit tristique. Donec metus nulla, maximus sit amet luctus eget, porttitor nec ipsum. Etiam eu tincidunt nulla, et sagittis libero. Ut at tincidunt tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla non magna et tellus auctor sagittis eu id metus. Maecenas pretium hendrerit nunc. Praesent tortor tellus, dictum tincidunt rhoncus quis, laoreet ac nulla. Nulla mattis venenatis lorem, et faucibus metus faucibus nec.</p>
+    <p></p>
     </div>
 
 
