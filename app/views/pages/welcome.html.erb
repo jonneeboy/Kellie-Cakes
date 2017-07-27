@@ -1,9 +1,10 @@
 <div id="mainContent" class="container"> 
     <div class="row">
-        <div class="info"> 
+        <div id="head" class="info"> 
             <h1>Kellie Cakes</h1>
             <h2>Contact: Kellie Haggett @: kelliehaggett@me.com | (909)-573-3652</h2>
         </div>
+       
     </div>
     <div class="row">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -140,7 +141,7 @@
     </div>
 </div>
 <div class="row">
-    <div class="center">
+    <div id="filter-bar" class="center">
         Kellie's Gallery: 
         &nbsp;&nbsp; 
         <%= link_to "Wedding Cakes", controller: "pages", action: "welcome", category: "Wedding Cake" %>
@@ -157,9 +158,9 @@
     <div id="welcomeBio" class="gallery">
         <% if @pastry_type %>
                 <% @pastry_type.each do |pastry| %>
-                    <div class="col-md-4">
+                    <div class="col-md-4 category-image">
                         <h4><%= pastry.name %></h4>
-                        <img src="<%= pastry.photo_url%>"  class="img-responsive" />
+                        <img src="<%= pastry.photo_url%>"  class="img-responsive img-circle img-thumbnail">
                     </div>
                 <% end %>
             </div>

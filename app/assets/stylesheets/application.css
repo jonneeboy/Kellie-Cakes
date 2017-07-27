@@ -16,7 +16,13 @@
 h1 {
     text-align: center;
     font-size: 600%;
-   
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin-top: -50px;
+    margin-bottom: 30px;
 }
 
 
@@ -24,13 +30,14 @@ body {
     font-family: 'Cookie', serif;
     font-size: 20px;
     padding-top: 80px;
+    padding-bottom: 80px;
     background-color: lavenderblush;
     background: url("/assets/stripe.png");
 
 }
 
 .navbar.navbar-default.navbar-fixed-top {
-    height: 50px;
+    height: 0px;
 }
 
 ul {
@@ -79,16 +86,25 @@ div.item {
     background-color: #BAC0F9;
 }
 
+.container-fluid {
+    background-color: #BAC0F9;
+}
+
 .gallery {
     text-align: center;
     height: 300px;
-
-}
-
-row {
-    text-align: right;
 }
 
 img {
     height: 360px !important;
+}
+
+.category-image {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#filter-bar {
+    margin-top: 60px;
+    margin-bottom: 20px;
 }
