@@ -52,9 +52,8 @@
                 <li class="navbar-text"><p>Welcome <%= current_user.name %></p></li>
                 <li><%= link_to 'Log Out', session_path('stupid'), method: :delete %></li>
               <% else %>
-                 <li><%= link_to 'Created by Kellie', login_path%></li>
+                 <li><%= link_to 'Cakes by Kellie', login_path%></li>
                 
-                <li><%= link_to raw("&copy;"), new_pastry_path %></li>
               <% end %>  
              
          </div><!-- /.navbar-collapse -->

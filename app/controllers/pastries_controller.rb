@@ -2,12 +2,12 @@ class PastriesController < ApplicationController
 
     def index
         @pastries = Pastry.all
+       
     end
 
     def filteredindex
         @category = params[:category]
         puts @category
-        @pastries = Pastry.find_by(category: filter_params)
     end
 
     def new
@@ -50,6 +50,7 @@ class PastriesController < ApplicationController
     end 
 
 private
+
     def filter_params
         params.require(:category)
     end

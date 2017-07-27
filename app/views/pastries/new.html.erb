@@ -5,26 +5,20 @@
         <%= form_for @pastry do |form| %>
             <div class="form-group">
                 <%= form.label :name %>
-                <%= form.text_field :name, class: "form-control" %>
+                <%= form.text_field :name, class: "form-control", required: true %>
             </div>
             <div class="form-group">
                 <%= form.label :description %>
-                <%= form.text_field :description, class: "form-control"  %>
+                <%= form.text_field :description, class: "form-control", required: true  %>
             </div>
             <div class="form-group">
                 <%= form.label :photo_url%>
-                <%= form.text_field :photo_url, class: "form-control"  %>
+                <%= form.text_field :photo_url, class: "form-control", required: true  %>
             </div>
             <div>
                 <%= form.label :category %>
-                <select class="form-control">
-                    <option>Select</option>
-                    <option>Wedding Cakes</option>
-                    <option>Birthday cakes</option>
-                    <option>Speciality Cakes</option>
-                    <option>CupCakes</option>
-                </select>
-            
+                <% cakes = ["Wedding Cake", "Birthday Cake", "Specialty Cake", "CupCakes"] %>
+                <%= form.select :category, cakes, {class: "form-control" } %>
             </div>
             <div class="form-group"><br>
                 <%= form.submit 'Create Pastry', class: "btn btn-warning" %>

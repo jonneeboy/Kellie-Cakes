@@ -1,6 +1,6 @@
 <h1><%= @category %></h1>
-<% if ((current_user) && (current_user.user_type == 'Admin')) %>
     <%= link_to "New", new_pastry_path %>
+<% if ((current_user) && (current_user.user_type == 'Admin')) %>
      <% @pastries.each do |pastry| %>
             <%= link_to "Edit", edit_pastry_path(pastry) %>   
             <%= link_to "Show", pastry_path(pastry) %>
