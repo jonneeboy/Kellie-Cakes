@@ -54,19 +54,41 @@ ul {
     font-stretch: expanded;
 }
 
-.contact {
-    text-align: right;
-
-}
 
 .info {
+    text-align: center;
+}
+
+div.item img {
+    height: 300px;
+  
+}
+
+div.item {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    background-color: image-url("stripe.png");
+
+}
+
+#footer {
+    background-color: #BAC0F9;
+}
+
+.gallery {
+    text-align: center;
+    height: 300px;
+
+}
+
+row {
     text-align: right;
 }
 
-.item{
-   /*disables white flash*/
-   -webkit-transition: -webkit-transform .5s ease-in-out;
-   -o-transition: -o-transform .5s ease-in-out;
-   transition: transform .5s ease-in-out;
+.img {
+    min-height: 360px;
 }
-
