@@ -108,3 +108,39 @@ img {
     margin-top: 60px;
     margin-bottom: 20px;
 }
+
+#list {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+
+#new_button {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -70px;
+    font-size: 50px;
+}
+
+#edit {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: -20px;
+}
+
+#show {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: -20px
+}
+
+#delete {
+    margin-right: 20px;
+    margin-bottom: 70px;
+    margin-top: -20px;
+}
+
+.kk-form-width {
+    max-width: 450px !important;
+    margin: 0 auto !important;
+}
