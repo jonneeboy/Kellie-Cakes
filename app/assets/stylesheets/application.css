@@ -89,6 +89,6 @@ row {
     text-align: right;
 }
 
-.img {
-    min-height: 360px;
+img {
+    height: 360px !important;
 }
