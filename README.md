@@ -22,7 +22,24 @@ TECHNOLOGY:
 
 GETTING STARTED:
 Here is a link to her website:
-https://github.com/jonneeboy/kellie_cakes.git
-https://kelliecakes.herokuapp.com/
+
+[Code](https://github.com/jonneeboy/kellie_cakes.git)
+
+[Visit Site](https://kelliecakes.herokuapp.com/)
+
+[Trello](https://trello.com/b/iplQC3CH/project-2)
+
+![Imgur](http://i.imgur.com/VXrn9pe.png?1)
+![Imgur](http://i.imgur.com/EWnX1s6.png)
+![Imgur](http://i.imgur.com/Cf0JDPY.png)
+![Imgur](http://i.imgur.com/hK9mNnn.png)
+![Imgur](http://i.imgur.com/MSYJAMP.png)
+![Imgur](http://i.imgur.com/cMYXxtf.png)
+![Imgur](http://i.imgur.com/Tv5XQLl.png)
+
+NEXT STEP:
+
+The next step would be to add a Facebook, Instagram, and a twitter link.  I would also like to style the user page a little more.  Also add a comment or yelp review, as well as a about me info.
+
 
 
