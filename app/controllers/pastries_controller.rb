@@ -2,7 +2,6 @@ class PastriesController < ApplicationController
 
     def index
         @pastries = Pastry.all
-       
     end
 
     def filteredindex
