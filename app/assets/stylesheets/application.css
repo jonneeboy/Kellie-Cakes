@@ -162,3 +162,13 @@ img {
 #log_out {
     margin-top: 5px;
 }
+
+.sign_in {
+    text-align: center;
+}
+
+.center_form {
+    border: 4px solid #E49994;
+    padding: 15px;
+    border-radius: 10px;
+}

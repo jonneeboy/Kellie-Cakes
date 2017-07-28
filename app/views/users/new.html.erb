@@ -1,0 +1,48 @@
+<h1>Sign Up</h1>
+<%= form_for @user do |f| %>
+
+  <div class="container">
+    <% if @user.errors.any? %>
+        <div class="error_messages">
+        <h2>Form is invalid</h2>
+        <ul>
+            <% for message in @user.errors.full_messages %>
+            <li><%= message %></li>
+            <% end %>
+        </ul>
+        </div>
+    <% end %>
+    <div class="col-5 kk-form-width center_form">
+        <div class="form-group">
+            <div class="field">
+                <%= f.label :name %>
+                <%= f.text_field :name, {class: "form-control" } %>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="field">
+                <%= f.label :email %>
+                <%= f.text_field :email, {class: "form-control" } %>
+            </div>
+         </div>
+
+        <div class="form-group">
+            <div class="field">
+                <%= f.label :password %>
+                <%= f.password_field :password, {class: "form-control" } %>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="field">
+                <%= f.label :password_confirmation %>
+                <%= f.password_field :password_confirmation, {class: "form-control" } %>
+            </div>
+        </div>
+        <div class="form-group">
+        <div class="actions"><%= f.submit nil, class: "btn btn-warning" %></div>
+    </div>
+<% end %>
+</div>
+</div>

@@ -53,6 +53,7 @@
             <li id="log_out"><%= link_to 'Log Out', session_path('stupid'), method: :delete %></li>
           <% else %>
             <li><%= link_to 'Cakes by Kellie', login_path%></li>
+            <li><%= link_to Time.current.year, new_user_path %></li>
           <% end %>  
         </ul>    
       </div><!-- /.navbar-collapse -->
