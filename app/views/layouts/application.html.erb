@@ -45,15 +45,15 @@
         <div id="footer" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li><%= link_to 'Pastries', pastries_url %></li>
-      
           </ul>
+            
             <ul class="nav navbar-nav navbar-footer">
        <% if current_user %>
                 <li class="navbar-text"><p>Welcome <%= current_user.name %></p></li>
-                <li><%= link_to 'Log Out', session_path('stupid'), method: :delete %></li>
+                <li id="log_out"><%= link_to 'Log Out', session_path('stupid'), method: :delete %></li>
               <% else %>
                  <li><%= link_to 'Cakes by Kellie', login_path%></li>
-                
+            </ul>    
               <% end %>  
              
          </div><!-- /.navbar-collapse -->

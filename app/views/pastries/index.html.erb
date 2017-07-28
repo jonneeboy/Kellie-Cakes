@@ -18,7 +18,9 @@
             <%= link_to "Delete this pastry?...Yeah Sure!", pastry_path(pastry), method: :delete, data: { confirm: "Are you sure you want to delete this pastry?"} %>
             </div>
             <h2><%= pastry.name %></h2>
+    <div id="photo">      
         <img src="<%= pastry.photo_url %>" onerror="this.src='http://i.imgur.com/2hazVqp.jpg'" class="img-responsive img-circle img-thumbnail"/>
+    </div>
         </div>
     <% end %>
     

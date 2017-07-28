@@ -1,4 +1,11 @@
-<%= @pastry.name %>
-<%= image_tag "#{@pastry.photo_url}" %>
+<h1>Show Cakes</h1>
+
+<div id="show_name">
+    <%= @pastry.name %>
+</div>
+
+     <div id="show_photo" class="col-xs-6 col-xs-offset-3">
+   <img src="<%=@pastry.photo_url %>" class="img-responsive img-circle img-thumbnail">
+    </div>
 
 
