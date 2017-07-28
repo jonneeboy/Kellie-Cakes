@@ -34,7 +34,7 @@
           <a class="navbar-brand" href="#">Kellie Cakes</a>
         </div>
     </nav>
-       
+  
     <%= yield %>
        
     <nav class="navbar navbar-default navbar-fixed-bottom">
@@ -51,6 +51,8 @@
        <% if current_user %>
                 <li class="navbar-text"><p>Welcome <%= current_user.name %></p></li>
                 <li id="log_out"><%= link_to 'Log Out', session_path('stupid'), method: :delete %></li>
+              <%= link_to 'Sign Up', new_user_path %>
+            
               <% else %>
                  <li><%= link_to 'Cakes by Kellie', login_path%></li>
             </ul>    

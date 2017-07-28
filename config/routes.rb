@@ -2,9 +2,15 @@ Rails.application.routes.draw do
 
 
   root "pages#welcome"
+  root "users#index"
   
+  resources :users
+
+
+  get 'users', to: 'users#index'
+
+  resources :users, only: [:new, :create]
   
- 
   get 'login', to: 'sessions#new'
   resources :sessions, only: [:new, :create, :destroy]
 

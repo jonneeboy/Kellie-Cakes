@@ -1,24 +1,28 @@
-# README
+# KELLIE CAKES
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+DESCRIPTION:
 
-Things you may want to cover:
+    Kellie Cakes is a web site that is devoted to homemade desserts made by a local pastry chef.  In this web site you will see a wide array of different pastries and cakes that range from birthdays, weddings, speciality cakes, and everyones favorite cupcakes.  The site is very easy and friendly to use, just click on the gallery of your choice and you can view all the yummy desserts. When you are ready to order just email her, or do it the old fashion way and pick up the phone!  Either way, you are sure to be pleased.
 
-* Ruby version
+TECHNOLOGY:
 
-* System dependencies
+* RUBY ON RAILS
 
-* Configuration
+* HTML
 
-* Database creation
+* CSS
 
-* Database initialization
+* BOOTSTRAP
 
-* How to run the test suite
+* TRELLO
 
-* Services (job queues, cache servers, search engines, etc.)
+* GIT HUB
 
-* Deployment instructions
+* HEROKU
 
-* ...
+GETTING STARTED:
+Here is a link to her website:
+https://github.com/jonneeboy/kellie_cakes.git
+https://kelliecakes.herokuapp.com/
+
+
