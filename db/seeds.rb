@@ -12,7 +12,7 @@ Pastry.destroy_all
 Pastry.create([
     {name: 'Minion Cake', description: 'Specialty cake based on the movie Minion', category: 'Speciality Cake', photo_url: '//i.imgur.com/GD89p8c.jpg'},
     {name:'Cat and Mouse Cake', description: 'Specialty cake cat and mouse', category: 'Speciality Cake', photo_url: '//i.imgur.com/Flz80sD.jpg'},
-    {name:'miniture bit-size cakes', description: 'miniture bit-size cakes', category: 'Speciality Cake', photo_url: '//i.imgur.com/Flz80sD.jpg'},
+    {name:'miniture bit-size cakes', description: 'miniture bit-size cakes', category: 'Speciality Cake', photo_url: '//i.imgur.com/NyGumWi.jpg?2'},
     {name: 'Sugar Rose', description: 'Speciality Rose made with sugar', category: 'Speciality Cake', photo_url: '//i.imgur.com/NyGumWi.jpg'},
     {name: 'Walking Dead', description: 'Zombie Cake', category: 'Speciality Cake', photo_url: '//i.imgur.com/g9vTv3G.jpg'},
     {name: 'Monster Cake', description: 'Monster Attack', category: 'Speciality Cake', photo_url:'//i.imgur.com/QHecIlC.jpg'},
